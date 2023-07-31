@@ -7,5 +7,7 @@ Link to data: https://www.kaggle.com/datasets/podsyp/sales-in-craft-beer-bar?sel
 1) Which country has the beer in highest demand?
 2) Which price range of beer is most popular (in USD / liter)?
 3) Where certain beers more popular in different months?
-4) What were the most popular ABVs of the beverages?
+4) What were the most popular ABVs of the beers?
+
+The real world applications of this data may help new beweriews decide what products to brew.
    
