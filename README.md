@@ -1,4 +1,5 @@
 # craftBeerSalesDB
+## Brett McGee
 Dataset of craft beers and their sales downloaded from Kaggle for class project.
 
 Link to data: https://www.kaggle.com/datasets/podsyp/sales-in-craft-beer-bar?select=Transactions.csv
