@@ -12,3 +12,6 @@ Link to data: https://www.kaggle.com/datasets/podsyp/sales-in-craft-beer-bar?sel
 
 The real world applications of this data may help new beweriews decide what products to brew.
    
+ERD:
+
+![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/8badedf3-33ba-49c0-917b-256ce90d4626)
