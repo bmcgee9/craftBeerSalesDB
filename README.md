@@ -10,9 +10,9 @@ Link to data: https://www.kaggle.com/datasets/podsyp/sales-in-craft-beer-bar?sel
 3) Where certain beers more popular in different months?
 4) What were the most popular ABVs of the beers?
 
-The real world applications of this data may help new beweriews decide what products to brew.
+The real world applications of this data may help new beweries decide what products to brew.
    
-ERD:
+Entity Relationship Diagram:
 
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/8badedf3-33ba-49c0-917b-256ce90d4626)
 
