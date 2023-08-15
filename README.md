@@ -14,7 +14,8 @@ The real world applications of this data may help new beweries decide what produ
    
 Entity Relationship Diagram:
 
-![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/ff1cf750-28c4-4105-b4d9-ce3e0f7d3e45)
+![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/541316b8-7b5f-4c57-a68a-f899aecce114)
+
 
 
 The ERD file is in the repo.
