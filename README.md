@@ -2,6 +2,8 @@
 ## Brett McGee
 Dataset of craft beers and their sales downloaded from Kaggle for class project.
 
+Find implementation details and proof of implementation in ./IMPLEMENTATION.md and ./ProofItIsWorking.md respectively.
+
 Link to data: https://www.kaggle.com/datasets/podsyp/sales-in-craft-beer-bar?select=Transactions.csv
 
 4 Example Analysis Questions:
