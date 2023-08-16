@@ -25,5 +25,14 @@ This script's main function if to define the 3 primary keys and 2 foreign keys w
 
 However, there were a few other issues that the script deals with:
 - A column with the datatype text can not be created into a Primary Key or a Foreign Key. This required me to switch the datatypes of Vendor_code to varchar(255) instead of TEXT in the products and vendors tables
-- A few rows of the products table which had blank cells in a column that had a data type of DOUBLE failed to import in unless the DOUBLE columns were imported with a data type of TEXT
-- 
+- A few rows of the products table which had blank cells in a column that had a data type of DOUBLE failed to import in unless the DOUBLE columns were imported with a data type of TEXT. This was causing me to be unable to add Product_code as a Foreign Key in the transactions table.
+
+To hunt down which Product_codes were missing, I use this query using a LEFT JOIN: 
+``` SELECT transactions.Product_code, products.Product_code
+FROM transactions
+LEFT JOIN products ON transactions.Product_code = products.Product_code
+WHERE products.Product_Code IS NULL
+ORDER BY transactions.Product_code ASC; ```
+  
+- A few (2) Product_codes that were used in the transactions table were completely missing from the products table, which was preventing me from defining Product_code as a Foreign Key in the transactions table. To fix this I deleted the 3 total rows referencing those Product_codes in the transactions table since these Product_codes were completely missing from the initial dataset.
+
