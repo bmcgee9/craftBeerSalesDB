@@ -20,7 +20,8 @@ It is worth noting that I spent a large amount of time editing the excel sheets 
 - Manually adding appropriate missing Vendor_codes in the products table
 - Decomposing the products table into the products and vendors tables by taking of the Country_of_Origin column in the products table. The vendors table consists of 2 columns being the Vendor_Code and Country_of_Origin columns
 - Delete duplicate rows from the new vendors table because there are a lot of them
-</br>
+<!-- end of the list -->
+
 ### Step 2: Run the implementBD.sql script
 </br>
 This script's main function if to define the 3 primary keys and 2 foreign keys we will need to implement our database (both of which are defined in the buildPlan.md).
@@ -39,4 +40,4 @@ ORDER BY transactions.Product_code ASC;
 ```
   
 - A few (2) Product_codes that were used in the transactions table were completely missing from the products table, which was preventing me from defining Product_code as a Foreign Key in the transactions table. To fix this I deleted the 3 total rows referencing those Product_codes in the transactions table since these Product_codes were completely missing from the initial dataset. To find these problematic Product_codes, I utilized the same query as above.
-
+<!-- end of the list -->
