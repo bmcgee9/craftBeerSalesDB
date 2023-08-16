@@ -22,7 +22,7 @@ It is worth noting that I spent a large amount of time editing the excel sheets 
 - Delete duplicate rows from the new vendors table because there are a lot of them
 <!-- end of the list -->
 
-### Step 2: Run the implementBD.sql script
+### Step 2: Run the implementationScriptAfterImports.sql script
 </br>
 This script's main function if to define the 3 primary keys and 2 foreign keys we will need to implement our database (both of which are defined in the buildPlan.md).
 
