@@ -6,6 +6,8 @@ To implement my database, I utilized my step by step
 </br>
 In order not to be repetitive, I will give a quick step by step guide of how I implemented my database.
 
+If you wanted to just recreate the skeleton of my DB, you could use the `beerSchemaScript.sql` file in this repository. With this, you could reverse engineer the ERD I am using.
+
 ### Step 1: Using the data table import wizard in mySQL Workbench. 
 </br>
 I imported Transactions2.csv as the transactions table, beersNoCountriesToImport.csv as the products table, and vendorsToImport2.csv as the vendors table.
