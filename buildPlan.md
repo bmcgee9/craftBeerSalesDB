@@ -14,7 +14,7 @@
     4.1) Delete all of the rows that have no vendor_code and no retail_price since this means there is no way for them to be ordered.
     4.2) Find all of the rows that don't have a vendor_code and set the vendor_code to the first word of the name, and then manually go through each row and check to make sure that the vendor_code is correct or change it if it is more than the first word.
 
-5) In excel, create another excel sheet that is just vendor_code and its matching Country_of_origin, and then remove all duplicate rows using the remove duplicates button in the data tools section.
+5) In excel, create another excel sheet that is just vendor_code and its matching Country_of_origin, and then remove all duplicate rows using the remove duplicates button in the data tools section. Sometimes the data isn't recorded properly and there are still two rows for a Vendor_code with different country names. Usually the other row has a null Country_of_Origin and you can delete that row. In a few cases, two different Country_of_Origin values are displayed to the same Vendor_code and you must research to find where the brewery is.
 
 6) Delete the Country_of_origin column from products excel sheet
    
