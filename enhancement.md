@@ -29,7 +29,7 @@ The about page is home to a quick introduction to my project. The most important
 Upon clicking the "Transactions Table" tab in the navigation bar, you are redirected to a login page (`login.html`) which just contains simple username and password text inputs that will get included in a POST request sent to `login.php`. </br>
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/a26b117e-29db-40a6-a4cd-f6666b80d3b7)
 </br>
-The `login.php` file uses `mysqli` to query my `auth` schema in my RDS, which contains a table of allowed usernames and their passwords, to check the validity of the information the user has inputed. Like the earlier mentioned PHP scripts, `login.php` uses prepared statements to protect against SQL injection attacks. The correction login info is `username: exampleUser` and `password: DB23X`. </br>
+The `login.php` file uses `mysqli` to query my `auth` schema in my RDS, which contains a table of allowed usernames and their passwords, to check the validity of the information the user has inputed. Like the earlier mentioned PHP scripts, `login.php` uses prepared statements to protect against SQL injection attacks. The correct login info is `username: exampleUser` and `password: DB23X`. </br>
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/fefc2bc2-5581-4404-b9f9-41df1ab30858)
 </br>
 If you enter an invalid username or password, you are redirected back to the home page and if you enter the valid username and password, you are taken to `transactionsGive.php` which generates a massive table of all the transactions involving the craft beers in our database using a relatively simple query that joined the products and transactions tables in `mysqli` . </br>
