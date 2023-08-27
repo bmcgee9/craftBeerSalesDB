@@ -1,7 +1,7 @@
-# Enchancement - Creating a Frontend
+# Enchancement - Creating a Front End
 ## Brett McGee
 
-For my enhancement, I created a complete frontend for my database that allows users to query in multiple ways. </br>
+For my enhancement, I created a complete front end for my database that allows users to query in multiple ways. </br>
 There are a few pages (each one using a complex combination of html, CSS and PHP), the home page, about page, and Transactions Tables page (links to each are compiled in the navigation bar).
 </br>
 ### Home Page
