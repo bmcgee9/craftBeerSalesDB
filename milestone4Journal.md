@@ -2,11 +2,15 @@
 ## Brett McGee
 
 Wednesday - 8/23/23
-Today, I came up with my plans for what I wanted to add as my additional feature. I decided to create a frontend that allows users to interact with my database by looking up beers
+Today, I came up with my plans for what I wanted to add as my additional feature. I decided to create a frontend that allows users to interact with my database by looking up beers by name or country. I also started to look into how I wanted to accomplish this, and I decided to just transfer my craftbeerdb on my local computer to the MariaDB running on my already up AWS ec2 instance and build out the existing webserver that the server was hosting.
+
+</br></br>
+Thursday - 8/27/23
+Looking back on it, not much progress was made today for the amount of time I spent on it. I spent many hours trying to transfer my db from my local machine to the ec2 server running MariaDB. The first method I tried was following the export data process in mySQL workbench to get a script that can essentially replicate a DB. However, when I tried to run it on the server, there were syntax errors due to the slight differences in mySQL and MariaDB syntax. My next attempt included downloaded all of my CSVs of data to the server and trying to import them into tables in MariaDB, but even though the query worked, none of the data actually got loaded into the tables. This left me pretty stumped as I went back to the drawing board and made a discovery: that my webserver and DB could be on different servers, as long as they are in the same local network (public IPs are constantly changing which would force the user to change the PHP files every time they want to use it). This caused me to start researching about AWS VPCs and how they control the private subnet the servers are on. After learning that I could set up two servers on the same VPC, I decided to follow the guide given to us in the canvas announcement to transfer my DB to an AWS RDS and leave the apache on an ec2.
 
 </br></br>
 Friday - 8/26/23
-Today, I worked on this project from 3-5 PM and 7 PM - 4 AM in my room and on FFB of the library. I was able to successfully get my RDS set up after experimenting with VPCs and Security groups the night before. Before going to sleep, I had a working home page that allowed users to query my DB based on product name and vendor country.
+Today, I worked on this project from 3-5 PM and 7 PM - 4 AM in my room and on FFB of the library. I was able to successfully get my RDS set up after experimenting with VPCs and Security groups the night before. Before going to sleep, I had a working home page that allowed users to query my DB based on product name and vendor country. This was accomplished by creating two different PHP files that can take a POST request from `index.html` and use `mysqli` to connect to my RDS where my craft beer data is stored. Both of these PHP files utilize prepared statements in order to protect against SQL injection attacks. 
 
 </br></br>
 Saturday - 8/26/23
