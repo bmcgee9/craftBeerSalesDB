@@ -6,6 +6,9 @@ Here is a picture of the homepage `index.html`:</br>
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/4a611048-2e65-452c-8408-23d1f983193b)
 </br>
 There are a few pages, the home page, about page, and Transactions Tables page (links to each are compiled in the navigation bar).
+</br>
+### Home Page
+</br>
 On this home page, there are two main features. One is the first search box where you can search for details on your favorite craft beer by its name (or just part of its name). In order to use this feature, you must type in the name of the craft beer like this: </br>
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/4f67e419-a40d-47d1-8eb1-63a292ec3430)
 </br>
