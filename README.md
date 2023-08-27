@@ -3,8 +3,8 @@
 Dataset of craft beers and their sales downloaded from Kaggle for class project.
 
 - Find implementation details and proof of implementation in ./IMPLEMENTATION.md and ./ProofItIsWorking.md respectively.
-- Look in `enhancement.md` to see my frontend in use.
-- Look at `milestone4.md` and `milestone4Journal.md` to learn more about how I created this frontend, my timeline in doing so, and some of the issues that I encountered along the way.
+- Look in [enhancement.md](enhancement.md) to see my frontend in use.
+- Look at [milestone4.md](milestone4.md) and [milestone4Journal.md](milestone4Journal.md) to learn more about how I created this frontend, my timeline in doing so, and some of the issues that I encountered along the way.
 
 Link to data: https://www.kaggle.com/datasets/podsyp/sales-in-craft-beer-bar?select=Transactions.csv
 
