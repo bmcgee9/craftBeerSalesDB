@@ -26,6 +26,6 @@ Entity Relationship Diagram:
 The ERD file is in the repo.
 
 </br>
-Resources I used:
-- SimpliLearn tutorials (great video on creating a PHP login form)
+Resources I used: </br>
+- SimpliLearn tutorials (great video on creating a PHP login form) </br>
 - W3Schools
