@@ -1,6 +1,9 @@
 # craftBeerSalesDB
 ## Brett McGee
 
+### Summary:
+This summer, I created a craft beer relational database using public online data and hosted this DB with AWS RDS. I then made a front end website hosted on an AWS ec2 server. My front end allows users to search my DB and even includes a authentication system using PHP. Seperately, I queried my DB to answer some analysis questions about craft beer.
+
 ### Milestone 4:
 Task 1 documentation: [main documentation](milestone4.md) & [show of functionality for enhancements](enhancement.md) <br>
 Task 2 documentation: [answering questions](questionsAnswered.md) <br>
@@ -32,6 +35,7 @@ Entity Relationship Diagram:
 The ERD file is in the repo.
 
 </br>
-Resources I used: </br>
+Resources: </br>
 - SimpliLearn tutorials (great video on creating a PHP login form) </br>
-- W3Schools
+- W3Schools (a huge help in terms of learning what I can use with HTML and CSS)
+- The class labs from module 7 were also a great resources
