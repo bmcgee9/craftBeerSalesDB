@@ -14,8 +14,8 @@ The last tab on my navigation bar is titled "Transactions Table" is where the au
 
 ### Enhancement 3: Adding Authentication
 For my third enhancement, I created an authentication system using html, PHP, and another small database on my RDS. The code for this can also be found at this [link](html_CSS_PHP_Files/). After selecting the "Transactions Table" tab, the user is redirected to my `login.html` page that is a very simple page that just has the user submit a username and password so that `login.html` can send a POST request to my `login.php` page that validates the credentials. Here is a picture of the code for collecting the username and password: <br> ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/d1e9c48b-5e40-4817-81ec-1a86048d7824) <br>
-Once the POST request is sent to `login.php`, the 
-
+Once the POST request is sent to `login.php`, the PHP script initializes a connection with my RDS to query the `auth` schema for a username that matches the submitted one. If the query returns a password (meaning the inputted user exists), the password inputted by the user is checked against the password in the DB. Here is a peak at the PHP code used for authentication: <br> ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/df66451b-25b5-41b7-b340-7f1c70db2e04) <br>
+If the credentials are valid, I set the `$_SESSION` authentication status to true and redirect the user to the `transactionsGive.php` page that displays the full table of my transactions which is formatted in a consistent way with the other tables. 
 
 
 ### Issues and Solutions and Lessons Learned
