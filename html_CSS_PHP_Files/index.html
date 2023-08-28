@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Craft Beer DB</title>
+	<!-- Large CSS section that allows us to format the website -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,12 +54,14 @@
     <header>
         <h1>Craft Beer Database</h1>
     </header>
+	<!-- Navigation Bar -->
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
 	<a href="login.html">Transactions Table</a>
     </nav>
 	<p class="intro"></br>Look up details about your favorite craft beer here!</br></p>
+	<!-- First search form (beer lookup by name) -->
 	<div class="search-container">
 	<form action="beerLookup.php" method="post">
 	<input type="text" name="name" class="search-input" placeholder="Craft Beer Name">
@@ -66,10 +69,12 @@
 	</form>
 	</div>
 	<p class="intro"></br>Look up craft beer vendors or breweries by country!</br></p>
+	<!-- Second search form (beer lookup by country) -->
 	<div class="search-container">
 	<form action="countryLookup.php" method="post">
         <label for="Country_of_Origin">Choose a country:</label>
         <select id="Country_of_Origin" name="Country_of_Origin">
+		<!-- Listing out of all options for the dropdown box -->
             <option value="USA">USA</option>
             <option value="Austria">Austria</option>
             <option value="Belgium">Belgium</option>
