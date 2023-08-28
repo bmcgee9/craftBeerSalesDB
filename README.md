@@ -37,5 +37,5 @@ The ERD file is in the repo.
 </br>
 Resources: </br>
 - SimpliLearn tutorials (great video on creating a PHP login form) </br>
-- W3Schools (a huge help in terms of learning what I can use with HTML and CSS)
+- W3Schools (a huge help in terms of learning what I can use with HTML and CSS) </br>
 - The class labs from module 7 were also a great resources
