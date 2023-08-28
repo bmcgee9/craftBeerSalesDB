@@ -17,4 +17,4 @@ The most popular vendor/brewery of craft beer was Jaws, selling 28,230 units. <b
 The most popular ABV of beers sold was 6%, selling 14,362 total beers.
 <br>
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/908e834a-9e87-484e-a168-81fbfa57f55d)
-NOTE: Here is the [link]() to the script that contains the queries to answer all of these questions.
+NOTE: Here is the [link](https://github.com/bmcgee9/craftBeerSalesDB/blob/main/scripts/answeringQuestionFromMilestone1.sql) to the script that contains the queries to answer all of these questions.
