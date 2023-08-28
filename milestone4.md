@@ -28,4 +28,4 @@ Please take a look at this [link](questionsAnswered.md) to see how I answered my
    Eventually, after searching through a lot of online forums, I found that the issue was with the version of SELinux (Security Enhanced Linux) that my ec2 server was running not allowing certain connections.
    The solution was to run this line: `setsebool -P httpd_can_network_connect=1`. Here is the [link](https://stackoverflow.com/questions/3407281/mysqli-connect-problem) to the forum I used to solve this issue.
 4. This more of a lesson learned than an issue, but through this project, I felt that I was able to completely learn how a full stack system interactions and I got a good grasp on PHP, which I initially felt was a hard language to learn.
-5. I learned that it is very helpful to keep a journal of my progress so that I can tell what I did and when. You can find my journal at this [link](milestone4.md).
+5. I learned that it is very helpful to keep a journal of my progress so that I can tell what I did and when. You can find my journal at this [link](milestone4Journal.md).
