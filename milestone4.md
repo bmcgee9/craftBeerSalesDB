@@ -19,9 +19,10 @@ If the credentials are valid, I set the `$_SESSION` authentication status to tru
 
 
 ### Issues and Solutions and Lessons Learned
-1. I couldn't figure out how to migrate my DB into a MariaDB instance on the ec2 server I was using for my website.
+1. I couldn't figure out how to migrate my DB into a MariaDB instance on the ec2 server I was using for my website. When I tried to run my import data script, it kept failing with syntax errors and after some research, I learned that there are enough small syntax differences between mySQL and MariaDB to make sure that the mySQL generated script won't work in MariaDB. My solution to this problem was to start another AWS server as a mySQL RDS. From this I learned that even though two programs/languages might be extremely similar, you can't count on them being interchangeable.
 2. I was having trouble figuring out where the IP was on my RDS dashboard, but I then learned that you get a static url to connect to your RDS instead of an IP because the public IP is changing everytime it has to request an IP address from the AWS DHCP system.
 3. I was having an extremely pesty connection issue between my servers while sending a POST request to the RDS server. I spent hours trying to debug it.
    I first went down the rabbit hole of making sure I was allowing HTTP, SQL(port 3306), and ICMP traffic and eventually all traffic between the two security groups that the servers were in, but this did nothing to help the issue.
    Eventually, after searching through a lot of online forums, I found that the issue was with the version of SELinux (Security Enhanced Linux) that my ec2 server was running not allowing certain connections.
    The solution was to run this line: `setsebool -P httpd_can_network_connect=1`. Here is the [link](https://stackoverflow.com/questions/3407281/mysqli-connect-problem) to the forum I used to solve this issue.
+4. This more of a lesson learned than an issue, but through this project, I felt that I was able to completely learn how a full stack system interactions and I got a good grasp on PHP, which I initially felt was a hard language to learn.
