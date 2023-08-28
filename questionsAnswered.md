@@ -12,11 +12,7 @@ The most popular craft beer in terms of units sold was 'Jaws Atomnaja Prachechna
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/4d59a60c-8abc-4505-91d5-c401cde8deb9)
 The most popular vendor/brewery of craft beer was Jaws, selling 28,230 units. <br>
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/ee763b15-388d-404c-a11a-5dbf903a5352)
-<br>
 4. What were the most popular ABVs of the beers? <br>
-The most popular ABV of beers sold was 6%, selling 14,362 total beers.
-<br>
+The most popular ABV of beers sold was 6%, selling 14,362 total beers.<br>
 ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/908e834a-9e87-484e-a168-81fbfa57f55d)
-<br>
-</br>
 NOTE: Here is the [link](https://github.com/bmcgee9/craftBeerSalesDB/blob/main/scripts/answeringQuestionFromMilestone1.sql) to the script that contains the queries to answer all of these questions.
