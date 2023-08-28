@@ -1,5 +1,13 @@
 # craftBeerSalesDB
 ## Brett McGee
+
+### Milestone 4:
+Task 1 documentation: [main documentation](milestone4.md) & [show of functionality for enhancements](enhancement.md) <br>
+Task 2 documentation: [answering questions](questionsAnswered.md) <br>
+Task 3: I have compiled links to all of my information in this README file. 
+### Milestone 2 & 3:
+Please refer to the [build documentation](buildDocumentation/).
+### Milestone 1:
 Dataset of craft beers and their sales downloaded from Kaggle for class project.
 
 - Find implementation details and proof of implementation in ./IMPLEMENTATION.md and ./ProofItIsWorking.md respectively.
