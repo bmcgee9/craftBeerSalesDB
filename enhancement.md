@@ -1,7 +1,7 @@
 # Enchancement - Creating a Front End
 ## Brett McGee
 
-For my enhancements, I migrated my database to AWS, created a complete front end for my database that allows users to query in multiple ways and includes an authentication program. </br>
+For my enhancements, I migrated my database to AWS (DB hosted on RDS and website hosted on ec2), created a complete front end for my database that allows users to query in multiple ways and includes an authentication program. </br>
 There are a few pages (each one using a complex combination of html, CSS and PHP), the home page, about page, and Transactions Tables page (links to each are compiled in the navigation bar).
 </br>
 ### Home Page
