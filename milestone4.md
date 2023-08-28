@@ -17,6 +17,8 @@ For my third enhancement, I created an authentication system using html, PHP, an
 Once the POST request is sent to `login.php`, the PHP script initializes a connection with my RDS to query the `auth` schema for a username that matches the submitted one. If the query returns a password (meaning the inputted user exists), the password inputted by the user is checked against the password in the DB. Here is a peak at the PHP code used for authentication: <br> ![image](https://github.com/bmcgee9/craftBeerSalesDB/assets/102620872/df66451b-25b5-41b7-b340-7f1c70db2e04) <br>
 If the credentials are valid, I set the `$_SESSION` authentication status to true and redirect the user to the `transactionsGive.php` page that displays the full table of my transactions which is formatted in a consistent way with the other tables. 
 
+### Task 2: Answering the Questions Posed in Milestone 1
+Please take a look at this [link](questionsAnswered.md) to see how I answered my questions and the answers themselves.
 
 ### Issues and Solutions and Lessons Learned
 1. I couldn't figure out how to migrate my DB into a MariaDB instance on the ec2 server I was using for my website. When I tried to run my import data script, it kept failing with syntax errors and after some research, I learned that there are enough small syntax differences between mySQL and MariaDB to make sure that the mySQL generated script won't work in MariaDB. My solution to this problem was to start another AWS server as a mySQL RDS. From this I learned that even though two programs/languages might be extremely similar, you can't count on them being interchangeable.
